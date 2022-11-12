@@ -15,3 +15,10 @@ function remove(x) {
     return result;
 }
 console.log(remove('Give me $20'))
+
+// Basqa diger metod
+function sortingLetters(text){
+    let arr=text.split("").filter(letter => letter.toUpperCase() != letter.toLowerCase()).join("");
+    return arr;
+}
+console.log(sortingLetters('Give me $20'))
